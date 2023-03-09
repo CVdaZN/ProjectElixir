@@ -2,3 +2,9 @@
     height: 200px;
     background: #aaa;
 }
+
+.ratio-16x9 {
+    @include media-breakpoint-up(sm) {
+      --bs-aspect-ratio: 50%; // 2x1
+    }
+  }
